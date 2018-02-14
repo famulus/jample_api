@@ -9,6 +9,7 @@ RUN  apt-get -y  install ruby-full
 RUN  apt-get -y  install rubygems
 RUN  apt-get -y install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 RUN  apt-get -y install libffi-dev
+# RUN  apt-get -y install ruby-dev
 
 
 
