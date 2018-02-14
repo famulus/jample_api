@@ -3,7 +3,9 @@ FROM ubuntu:latest
 RUN mkdir /myapp
 WORKDIR /myapp
 
+
 RUN  apt-get update  
+RUN  apt-get -y  install git-all
 RUN  apt-get -y  install aubio-tools
 RUN  apt-get -y  install ruby-full
 RUN  apt-get -y  install rubygems
@@ -12,6 +14,8 @@ RUN  apt-get -y install libffi-dev
 # RUN  apt-get -y install ruby-dev
 
 
+ADD .git /myapp/.git
+RUN  git pull origin master  
 
 ADD Gemfile /myapp/Gemfile
 
