@@ -1,0 +1,17 @@
+{"containerDefinitions": [
+      {
+          "name": "jample-api",
+          "image": "779002047127.dkr.ecr.us-east-2.amazonaws.com/jample-api:latest",
+          "cpu": 0,
+          "portMappings": [
+               {
+                    "protocol": "tcp",
+                      "containerPort": 3000,
+                      "hostPort": 3000
+                   }
+              ],
+          "memoryReservation": 100,
+          "essential": true
+        }
+    ],
+  "family": "jample-test"}
