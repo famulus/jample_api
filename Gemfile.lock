@@ -46,6 +46,10 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     diff-lcs (1.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubi (1.7.0)
     ffi (1.9.21)
     globalid (0.4.1)
@@ -136,6 +140,8 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.3)
+      tzinfo (>= 1.0.0)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -150,6 +156,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  dotenv-rails
   jbuilder
   listen (~> 3.0.5)
   mongoid
@@ -160,6 +167,9 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
   web-console
+
+RUBY VERSION
+   ruby 2.5.0p0
 
 BUNDLED WITH
    1.16.1
