@@ -59,8 +59,6 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
-    jquery-ui-rails (5.0.5)
-      railties (>= 3.2.16)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -160,7 +158,6 @@ DEPENDENCIES
   byebug
   dotenv-rails
   jbuilder
-  jquery-ui-rails (~> 5.0.5)
   listen (~> 3.0.5)
   mongoid
   puma
