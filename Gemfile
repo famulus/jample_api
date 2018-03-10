@@ -8,6 +8,7 @@ gem 'mongoid'
 gem 'puma'
 gem 'jbuilder'
 gem 'rspec'
+gem 'jquery-ui-rails', '~> 5.0.5'
 
 
 group :development, :test do
