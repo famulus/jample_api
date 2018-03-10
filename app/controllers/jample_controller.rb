@@ -1,6 +1,6 @@
 class JampleController < ApplicationController
     def index
-        render :text => "OKOK"
+        render( {plain: "OKOK"} )
 
     end
 end
